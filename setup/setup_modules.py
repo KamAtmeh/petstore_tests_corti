@@ -40,7 +40,7 @@ def install_modules(module_names: list[str]):
             print(f"{module_name} has been installed.")
 
 # List of modules to check and install if needed
-modules_to_verify = ["json", "pandas", "glob", "re", "math", "openpyxl", "pytest", "requests"]
+modules_to_verify = ["json", "pytest", "requests"]
 
 # Install modules
 install_modules(modules_to_verify)
